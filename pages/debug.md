@@ -1,5 +1,6 @@
 ---
 permalink: /debug/
+title: "Debug page"
 ---
 
 <h1>Site configuration</h1>
@@ -7,6 +8,7 @@ permalink: /debug/
 {{ site | debug }}
 {{ site.meta | debug }}
 {{ site.meta.title | debug }}
+{{ site.github | debug }}
 {{ site.defaults | debug }}
 ```
 
