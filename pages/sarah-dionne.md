@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Sarah Dionne
+permalink: /sarah-dionne/
 ---
 
-## Sarah Dionne
+# Sarah Dionne
 
 ![Sarah Dionne](//ik.imagekit.io/sarahdionne/tr:w-576,fo-auto,f-webp/profile/sarah_dionne_profile_bis.jpg)
 

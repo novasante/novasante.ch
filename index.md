@@ -73,4 +73,4 @@ Instagram : [@ora_acupuncture](https://www.instagram.com/ora_acupuncture)
 
 NOVA - SANTÉ INTÉGRÉE<br>
 Rte du Simplon 16, 1094 Paudex<br>
-WWW.NOVASANTE.CH
+<WWW.NOVASANTE.CH>

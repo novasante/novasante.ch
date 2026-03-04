@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Alexandre Kaspar
+permalink: /alexandre-kaspar/
 ---
 
-## Alexandre Kaspar
+# Alexandre Kaspar
 
 Page en construction

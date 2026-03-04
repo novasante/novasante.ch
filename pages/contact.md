@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
-## Contact
+# Contact
 
 +41 76 839 3008<br>
 [sarah@novasante.ch](mailto:sarah@novasante.ch)
@@ -12,4 +13,4 @@ title: Contact
 
 NOVA - SANTÉ INTÉGRÉE<br>
 Rte du Simplon 16, 1094 Paudex<br>
-WWW.NOVASANTE.CH
+<WWW.NOVASANTE.CH>
