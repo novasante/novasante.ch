@@ -66,10 +66,10 @@ Instagram : [@ora_acupuncture](https://www.instagram.com/ora_acupuncture)
 # Contact
 
 +41 76 839 30 08<br>
-[sarah.dionne@novasante.ch](mailto:sarah@novasante.ch)
+<sarah.dionne@novasante.ch>
 
 ---
 
 NOVA - SANTÉ INTÉGRÉE<br>
 Rte du Simplon 16, 1094 Paudex<br>
-<WWW.NOVASANTE.CH>
+[NOVASANTE.CH](HTTP://NOVASANTE.CH)
