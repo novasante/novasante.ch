@@ -1,4 +1,4 @@
-const cacheName = "NOVA-v0.1.01",
+const cacheName = "NOVA-v0.1.02",
       assets = [
         '/',
         '/index.html',

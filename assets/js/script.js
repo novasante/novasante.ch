@@ -406,82 +406,93 @@ const initRouting = () => {
 };
 
 const initSections = () => {
-    const container = document.getElementsByClassName('sections')[0];
-    if (!container) {
-        console.warn("Container with class 'sections' not found. Cannot organize content into sections.");
-        return;
+  const container = document.getElementsByClassName("sections")[0];
+  if (!container) {
+    console.warn(
+      "Container with class 'sections' not found. Cannot organize content into sections."
+    );
+    return;
+  }
+
+  // Create a DocumentFragment to build the new structure efficiently
+  const fragment = document.createDocumentFragment();
+  let currentSectionDiv = null;
+  // This array will temporarily hold the children for the section currently being built.
+  // This allows us to process them (e.g., remove first/last HR) before appending to the DOM.
+  let sectionChildren = [];
+
+  // Get a static list of the container's children to iterate over.
+  // This is important because we will be moving/removing children,
+  // which would otherwise affect a live NodeList.
+  const childrenToProcess = Array.from(container.children);
+
+  /**
+   * Helper function to process the collected children for the current section.
+   * It checks for and removes HR elements if they are the first or last child
+   * within the section, then appends the remaining children to the section
+   * and adds the section to the fragment.
+   */
+  const processCurrentSection = () => {
+    if (currentSectionDiv && sectionChildren.length > 0) {
+      // Check and remove HR if it's the first child of the section
+      if (sectionChildren.length > 0 && sectionChildren[0].tagName === "HR") {
+        sectionChildren.shift(); // Remove the first element
+      }
+      // Check and remove HR if it's the last child of the section
+      if (
+        sectionChildren.length > 0 &&
+        sectionChildren[sectionChildren.length - 1].tagName === "HR"
+      ) {
+        sectionChildren.pop(); // Remove the last element
+      }
+
+      // Append the remaining children to the currentSectionDiv
+      sectionChildren.forEach((child) => {
+        currentSectionDiv.appendChild(child);
+      });
+      fragment.appendChild(currentSectionDiv);
     }
+  };
 
-    // Create a DocumentFragment to build the new structure efficiently
-    const fragment = document.createDocumentFragment();
-    let currentSectionDiv = null;
-    // This array will temporarily hold the children for the section currently being built.
-    // This allows us to process them (e.g., remove first/last HR) before appending to the DOM.
-    let sectionChildren = [];
+  childrenToProcess.forEach((child) => {
+    if (child.tagName === "H1") {
+      // If an H1 is encountered, it marks the start of a new logical section.
+      // First, process the previous section if one was being built
+      processCurrentSection();
 
-    // Get a static list of the container's children to iterate over.
-    // This is important because we will be moving/removing children,
-    // which would otherwise affect a live NodeList.
-    const childrenToProcess = Array.from(container.children);
+      // Start a new section
+      currentSectionDiv = document.createElement("section");
+      currentSectionDiv.classList.add("containered"); // Add a class for styling these new sections
 
-    /**
-     * Helper function to process the collected children for the current section.
-     * It checks for and removes HR elements if they are the first or last child
-     * within the section, then appends the remaining children to the section
-     * and adds the section to the fragment.
-     */
-    const processCurrentSection = () => {
-        if (currentSectionDiv && sectionChildren.length > 0) {
-            // Check and remove HR if it's the first child of the section
-            if (sectionChildren.length > 0 && sectionChildren[0].tagName === 'HR') {
-                sectionChildren.shift(); // Remove the first element
-            }
-            // Check and remove HR if it's the last child of the section
-            if (sectionChildren.length > 0 && sectionChildren[sectionChildren.length - 1].tagName === 'HR') {
-                sectionChildren.pop(); // Remove the last element
-            }
+      // Check if the H1 has an ID and move it to the section
+      if (child.id) {
+        currentSectionDiv.id = child.id; // Assign the H1's ID to the section
+        child.removeAttribute("id"); // Remove the ID from the H1
+      }
 
-            // Append the remaining children to the currentSectionDiv
-            sectionChildren.forEach(child => {
-                currentSectionDiv.appendChild(child);
-            });
-            fragment.appendChild(currentSectionDiv);
-        }
-    };
+      sectionChildren = []; // Reset children array for the new section
+      sectionChildren.push(child); // Add the H1 as the first child of the new section
+    } else {
+      // If it's not an H1
+      if (!currentSectionDiv) {
+        // If no H1 has been encountered yet, create the first section implicitly.
+        currentSectionDiv = document.createElement("section");
+        currentSectionDiv.classList.add("containered");
+        sectionChildren = []; // Ensure it's empty for the new section
+      }
+      // Add the current child element to the current section's temporary list.
+      sectionChildren.push(child);
+    }
+  });
 
-    childrenToProcess.forEach(child => {
-        if (child.tagName === 'H1') {
-            // If an H1 is encountered, it marks the start of a new logical section.
-            // First, process the previous section if one was being built
-            processCurrentSection();
+  // After the loop, process the very last section that was being built
+  processCurrentSection();
 
-            // Start a new section
-            currentSectionDiv = document.createElement('section');
-            currentSectionDiv.classList.add('containered'); // Add a class for styling these new sections
-            sectionChildren = []; // Reset children array for the new section
-            sectionChildren.push(child); // Add the H1 as the first child of the new section
-        } else {
-            // If it's not an H1
-            if (!currentSectionDiv) {
-                // If no H1 has been encountered yet, create the first section implicitly.
-                currentSectionDiv = document.createElement('section');
-                currentSectionDiv.classList.add('containered');
-                sectionChildren = []; // Ensure it's empty for the new section
-            }
-            // Add the current child element to the current section's temporary list.
-            sectionChildren.push(child);
-        }
-    });
-
-    // After the loop, process the very last section that was being built
-    processCurrentSection();
-
-    // After processing all children, clear the original container's content
-    // and then append the new, structured content from the fragment.
-    container.innerHTML = '';
-    container.appendChild(fragment);
+  // After processing all children, clear the original container's content
+  // and then append the new, structured content from the fragment.
+  container.innerHTML = "";
+  container.appendChild(fragment);
 };
-
 
 const init = () => {
   initFirstScrollListener();
