@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Sarah Dionne
 permalink: /sarah-dionne/
 ---

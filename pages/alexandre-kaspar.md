@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Alexandre Kaspar
 permalink: /alexandre-kaspar/
 ---

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Séverine Corthay
 Permalink: /severine-corthay/
 ---
