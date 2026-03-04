@@ -61,3 +61,16 @@ Nous croyons que lorsque les compétences se complètent et que le dialogue s’
 📧 laura.carnello@novasante.ch  
 📞 +41 78 638 80 59  
 Instagram : [@ora_acupuncture](https://www.instagram.com/ora_acupuncture)
+
+---
+
+# Contact
+
++41 76 839 30 08<br>
+[sarah.dionne@novasante.ch](mailto:sarah@novasante.ch)
+
+---
+
+NOVA - SANTÉ INTÉGRÉE<br>
+Rte du Simplon 16, 1094 Paudex<br>
+WWW.NOVASANTE.CH

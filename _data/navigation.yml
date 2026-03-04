@@ -3,16 +3,16 @@ nav:
     url: "#home"
   - title: Présentation
     url: "#présentation"
-  - title: Thérapeutes
-    subnav:
-      - title: Sarah Dionne
-        url: "#sarah-dionne"
-      - title: Séverine Corthay
-        url: "#séverine-corthay"
-      - title: Alexandre Kaspar
-        url: "#alexandre-kaspar"
-      - title: Laura Carnello
-        url: "#laura-carnello"
-#  - title: Contact
-#    url: /contact
-#    class: primary
+#  - title: Thérapeutes
+#    subnav:
+#      - title: Sarah Dionne
+#        url: "#sarah-dionne"
+#      - title: Séverine Corthay
+#        url: "#séverine-corthay"
+#      - title: Alexandre Kaspar
+#        url: "#alexandre-kaspar"
+#      - title: Laura Carnello
+#        url: "#laura-carnello"
+  - title: Contact
+    url: "#contact"
+    class: primary
