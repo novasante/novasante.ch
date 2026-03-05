@@ -1,15 +1,16 @@
 {% if include.nav %}
 <ul>
   {% for item in include.nav %}
-    {% assign classnames = "" %}
+    {% assign classnames = nil %}
     {% if item.subnav %}
         {% assign classnames = "submenu" %}
     {% endif %}
     {% if page.url == item.url %}
         {% if classnames %}
-            {% assign classnames = classnames | append: ", " %}
+            {% assign classnames = classnames | append: ", current" %}
+        {% else %}
+            {% assign classnames = "current" %}
         {% endif %}
-        {% assign classnames = classnames | append: "current" %}
     {% endif %}
     <li{% if classnames %} class="{{ classnames | split: ', ' | join: ' ' }}"{% endif %}>
         {% assign tag_name = 'span' %}
