@@ -33,7 +33,7 @@ Nous croyons que lorsque les compétences se complètent et que le dialogue s’
 ## Sarah Dionne  
 **Fondatrice du centre - Coordination des soins - Thérapie et accompagnement**
 
-📧 <sarah.dionne@novasante.ch> 
+📧 <sarah.dionne@novasante.ch>  
 📞 +41 76 839 30 08  
 
 ---
@@ -41,7 +41,7 @@ Nous croyons que lorsque les compétences se complètent et que le dialogue s’
 ## Séverine Corthay  
 **Dramathérapeute e.f.**  
 
-📧 <severine.corthay@novasante.ch> 
+📧 <severine.corthay@novasante.ch>  
 📞 +41 78 302 31 56  
 
 ---
@@ -49,7 +49,7 @@ Nous croyons que lorsque les compétences se complètent et que le dialogue s’
 ## Alexandre Kaspar  
 **Physiothérapeute – Spécialisation pédiatrique**  
 
-📧 <alexandre.kaspar@novasante.ch> 
+📧 <alexandre.kaspar@novasante.ch>  
 📞 +41 78 677 77 14  
 
 ---
@@ -57,19 +57,19 @@ Nous croyons que lorsque les compétences se complètent et que le dialogue s’
 ## Laura Carnello  
 **Acupuncture & Tuina**  
 
-📧 <laura.carnello@novasante.ch> 
-📞 +41 78 638 80 59 
+📧 <laura.carnello@novasante.ch>  
+📞 +41 78 638 80 59  
 Instagram : [@ora_acupuncture](https://www.instagram.com/ora_acupuncture)
 
 ---
 
 # Contact
 
-+41 76 839 30 08<br>
++41 76 839 30 08  
 <sarah.dionne@novasante.ch>
 
 ---
 
-NOVA - SANTÉ INTÉGRÉE<br>
-Rte du Simplon 16, 1094 Paudex<br>
+NOVA - SANTÉ INTÉGRÉE  
+Rte du Simplon 16, 1094 Paudex  
 [NOVASANTE.CH](HTTP://NOVASANTE.CH)
