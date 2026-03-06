@@ -1,7 +1,7 @@
 ## Les thérapeutes actuellement au centre
 
 {% assign ordered = site.practitioners | where_exp: "p", "p.order" | sort: "order" %}
-{% assign alpha = site.practitioners | where_exp: "p", "p.order == nil" | sort: "name" %}
+{% assign alpha = site.practitioners | where_exp: "p", "p.order == nil" | sort: "title" %}
 
 <div class="row">
 {% for p in ordered | concat: alpha %}
