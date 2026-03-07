@@ -10,7 +10,7 @@ Un espace thérapeutique où différentes approches se rencontrent pour vous acc
 
 Nous croyons qu’un parcours de soin gagne en qualité lorsque les professionnels collaborent et prennent en compte la personne dans son ensemble.
 
-![Découvrir les thérapeutes du centre]({{ site.practitioners_url }}) {:.button.primary}
+[Découvrir les thérapeutes du centre]({{ site.practitioners_url }}) {:.button.primary}
 
 ---
 
@@ -79,7 +79,7 @@ Les thérapeutes du centre ont chacun leur spécialité, leur sensibilité et le
 Ce qui les relie, c’est une volonté commune :  
 offrir un cadre de soin respectueux, attentif et ouvert à la complémentarité.
 
-![Découvrir les thérapeutes du centre]({{ site.practitioners_url }}) {:.button.primary}
+[Découvrir les thérapeutes du centre]({{ site.practitioners_url }}) {:.button.primary}
 
 ---
 
