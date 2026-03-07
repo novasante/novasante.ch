@@ -2,7 +2,7 @@
 permalink: /v2/
 ---
 
-## Un centre de santé intégratif à Paudex
+## Un centre de santé intégratif à Paudex {#presentation}
 
 ![Ambiance du centre, lieu calme et accueillant](https://placehold.co/600x400?text=Centre)
 

@@ -1,10 +1,10 @@
 <nav>
   <span class="title">
-    <a href="#home">
+    <a href="{{ '/' | relative_url }}">
       <svg class="logo icon">
         <use xlink:href="#logo_24dp"></use>
       </svg>
-      Nova <span>Santé Integrée</span>
+      {{ site.title }} <span>{{ site.baseline }}</span>
     </a>
   </span>
   {% include recursive_nav.html nav=site.data.navigation.nav %}
