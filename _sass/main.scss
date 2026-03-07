@@ -263,6 +263,11 @@ $slide-images: ("mountain-sunrise.jpg");
           max-width: calc((100vw / 3) - var(--gutter));
         }
       }
+      @include grid-media-query(l) {
+        &:not(.large) {
+          max-width: map-get($containers, "l") / 2;
+        }
+      }
     }
   }
 }
@@ -364,7 +369,7 @@ body {
   h6 {
     font-weight: 300;
     // text-align: center;
-    margin: var(--gutter) 0;
+    margin: calc(var(--gutter) / 2) 0 var(--gutter) 0;
     span {
       font-weight: 900;
     }
@@ -372,19 +377,22 @@ body {
   h2 {
     font-size: 1.7em;
   }
-  p {
+  p, h3, h4, h5, h6 {
     margin: calc(var(--gutter) / 2) 0;
   }
 
-  .sncl {
+  .content {
     h1 {
       font-weight: 600;
     }
     h2 {
-      font-size: 2.5em;
+      // font-size: 2.5em;
       font-weight: 700;
     }
     h3 {
+      font-weight: 600;
+    }
+    strong {
       font-weight: 600;
     }
   }
