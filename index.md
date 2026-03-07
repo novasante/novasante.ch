@@ -5,8 +5,6 @@ title: NOVA Santé Intégrée
 
 ## Présentation
 
-{% if sarah %}![{{ sarah.title }} - {{ sarah.function }}]({{ sarah.image }}){% endif %}
-
 NOVA Santé Intégrée est un espace thérapeutique dédié à la coordination et à la cohérence des parcours de soins.
 
 Notre mission est de favoriser la collaboration entre les approches contemporaines, traditionnelles et complémentaires afin d’améliorer la fluidité, la compréhension et l’efficacité des accompagnements proposés.
