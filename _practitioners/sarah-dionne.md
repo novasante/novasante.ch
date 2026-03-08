@@ -10,9 +10,9 @@ image: //ik.imagekit.io/sarahdionne/tr:w-576,fo-auto,f-webp/profile/sarah_dionne
 
 ## Présentation {#presentation}
 
-![Sarah Dionne](//ik.imagekit.io/sarahdionne/tr:w-576,fo-auto,f-webp/profile/sarah_dionne_profile_bis.jpg)
+**Physiothérapie pédiatrique** · **Acupuncture** · **Médecine chinoise**
 
-Physiothérapie pédiatrique · Acupuncture · Médecine chinoise
+![Sarah Dionne](//ik.imagekit.io/sarahdionne/tr:w-576,fo-auto,f-webp/profile/sarah_dionne_profile_bis.jpg)
 
 J’accompagne les nourrissons, les enfants et les adultes dans une approche globale du soin, mêlant physiothérapie et médecine traditionnelle chinoise.
 
