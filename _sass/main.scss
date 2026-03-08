@@ -943,7 +943,7 @@ body {
           display: inline-block;
           padding: 0;
           min-width: calc(#{map-get($breakpoints, min)}px - var(--gutter));
-          @include grid-media-query(s) {
+          @include grid-media-query(min) {
             min-width: 90vw;
           }
           @include grid-media-query(m) {
@@ -969,12 +969,22 @@ body {
               }
             }
             .headline {
-              font-size: var(--h1-font-size);
-              @include grid-media-query(l) {
+              font-size: 2.5em;
+              @include grid-media-query(xs) {
+                font-size: 3em;
+              }
+              @include grid-media-query(s) {
+                font-size: 3.5em;
+              }
+              @include grid-media-query(m) {
                 font-size: 4em;
+              }
+              @include grid-media-query(l) {
+                font-size: 4.5em;
               }
               font-weight: bold;
               color: var(--light-85);
+              text-align: left;
             }
             a.button.primary {
               filter: none;
