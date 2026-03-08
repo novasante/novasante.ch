@@ -7,9 +7,46 @@ layout: default
 ---
 
 <h2 id="contact">Prendre contact avec {{ page.title }}</h2>
-<p><strong>{{ page.function }}</strong></p>
-<p>📧 <a href="mailto:{{ page.email }}">{{ page.email }}</a><br>
-📞 {{ page.phone }}
+<p><strong>{{ page.function }}</strong>
 {% if page.instagram %}<br>Instagram : <a href="https://www.instagram.com/{{ page.instagram }}">@{{ page.instagram }}</a>{% endif %}
 </p>
 {% if page.booking %}<p><a class="button primary" href="{{ page.booking }}">Prendre rendez-vous</a></p>{% endif %}
+<div class="row">
+  <div class="col m--u-1/2 phone">
+    <div class="row">
+      <div class="col u-1/4 text-center">
+        <a href="javascript:document.getElementById('phone-contact').showModal()" title="Par téléphone" class="button-icon">
+          <svg class="icon">
+            <title>Téléphone, SMS ou Whatsapp</title>
+            <use xlink:href="#call_24dp"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="col u-3/4">
+        <p>Par téléphone:</p>
+        <p>
+          <a href="javascript:document.getElementById('phone-contact').showModal()" title="Par téléphone" class="contact_tel"><strong>{{ page.phone }}</strong></a><br>
+          <small>WhatsApp ou SMS</small>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col m--u-1/2 email">
+    <div class="row">
+      <div class="col u-1/4 text-center">
+        <a href="mailto:{{ site.contact.email }}" title="mailto:{{ site.contact.email }}" class="button-icon">
+          <svg class="icon">
+            <title>Email</title>
+            <use xlink:href="#email_24dp"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="col u-3/4">
+        <p>Par email:</p>
+        <p>
+          <a href="mailto:{{ page.email }}" title="mailto:{{ page.email }}" class="contact_mailto"><strong>{{ page.email }}</strong></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
