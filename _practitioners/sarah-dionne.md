@@ -8,15 +8,17 @@ booking: //www.onedoc.ch/fr/acupunctrice/paudex/pcsix/sarah-dionne
 image: //ik.imagekit.io/sarahdionne/tr:w-576,fo-auto,f-webp/profile/sarah_dionne_profile.jpg
 ---
 
-![Sarah Dionne](//ik.imagekit.io/sarahdionne/tr:w-576,fo-auto,f-webp/profile/sarah_dionne_profile_bis.jpg)
-
 ## Spécialité
+
+![Sarah Dionne](//ik.imagekit.io/sarahdionne/tr:w-576,fo-auto,f-webp/profile/sarah_dionne_profile_bis.jpg)
 
 Physiothérapie pédiatrique · Acupuncture · Médecine chinoise
 
 J’accompagne les nourrissons, les enfants et les adultes dans une approche globale du soin, mêlant physiothérapie et médecine traditionnelle chinoise.
 
-Mon objectif est de proposer un accompagnement adapté à chaque personne, en prenant en compte son histoire, son rythme et ses besoins spécifiques.
+Convaincue que la santé gagne à être abordée de manière plus large et collaborative, j’ai fondé **NOVA Santé Intégrée** afin de créer un lieu où différentes approches thérapeutiques peuvent dialoguer et se compléter.
+
+Au sein du centre, je coordonne également les parcours de soins lorsque cela est pertinent, afin de favoriser une collaboration entre les différents thérapeutes et proposer un accompagnement cohérent et adapté à chaque personne.
 
 ---
 
@@ -36,25 +38,26 @@ Ces expériences m’ont permis de découvrir les différentes facettes de la ph
 
 ---
 
-![Sarah Dionne bis](//ik.imagekit.io/sarahdionne/tr:w-576,fo-auto,f-webp/profile/sarah_dionne_profile.jpg)
-
 ## Mon approche
+
+![Sarah Dionne bis](//ik.imagekit.io/sarahdionne/tr:w-576,fo-auto,f-webp/profile/sarah_dionne_profile.jpg)
 
 Au fil de mon parcours, j’ai développé un intérêt pour des approches complémentaires du soin.
 
-Passionnée de voyage et de découverte, j’ai été amenée à explorer différentes visions de la médecine.
+Passionnée de voyage et de découverte, j’ai été amenée à explorer différentes visions de la médecine et à me former à la **médecine traditionnelle chinoise**.
 
 Je me suis notamment formée à :
 
-- **Reiki (2016)**
-- **Acupuncture et moxibustion**
-- **Massage Tuina**
+- **l’acupuncture et la moxibustion**
+- **le massage Tuina**
 
 Ces formations ont été suivies à l’**Europe Shanghai College à Genève** entre 2017 et 2020.
 
 Lorsque cela est nécessaire, j’utilise également un **stylo d’acupuncture laser**, particulièrement adapté pour les enfants ou les personnes ayant une appréhension des aiguilles.
 
 En 2022, j’ai complété ma formation avec le **Shonishin**, une méthode japonaise d’acupuncture sans aiguilles spécialement destinée aux enfants.
+
+Mon approche consiste à adapter les outils thérapeutiques à chaque situation, en combinant lorsque cela est pertinent physiothérapie et médecine chinoise.
 
 ---
 
@@ -73,7 +76,7 @@ En tant que maman de deux enfants (2019 et 2021) et spécialiste du développeme
 - du développement moteur
 - du positionnement
 - du sommeil
-- du portage et du "handling"
+- du portage et du *handling*
 
 ---
 
@@ -94,9 +97,9 @@ Les domaines dans lesquels j’exerce et suis formée incluent notamment :
 - pathologies psychosomatiques
 - suivi pré-partum
 
-Mon approche consiste à adapter les outils thérapeutiques selon la situation :
+Selon les besoins, j’adapte l’approche thérapeutique en combinant :
 
 - physiothérapie
 - acupuncture
-- reiki
+- médecine traditionnelle chinoise
 - éducation thérapeutique
